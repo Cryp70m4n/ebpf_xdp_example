@@ -1,0 +1,2 @@
+sudo ip link set dev enp4s0 xdp obj omega.bpf.o sec xdp
+sudo ip link set dev enp4s0 xdp off
